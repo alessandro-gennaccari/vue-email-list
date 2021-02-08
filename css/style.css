@@ -3,3 +3,24 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+ul {
+    list-style: none;
+    width: 500px;
+    margin: auto;
+    text-align: center;
+}
+
+ul li {
+    padding: 10px;
+    background-color: wheat;
+    border-bottom: 1px solid rgba(131, 131, 131, 0.562);
+    border-radius: 10px;
+    margin: 15px;
+    box-shadow: 1px 1px 1px rgb(71, 0, 0);
+}
+
+ul li:hover {
+    background-color: rgb(255, 236, 199);
+    cursor: pointer;
+}
